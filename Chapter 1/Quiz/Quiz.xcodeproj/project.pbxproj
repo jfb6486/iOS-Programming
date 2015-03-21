@@ -14,6 +14,8 @@
 		910DD8FD1AA8335600767E19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910DD8FC1AA8335600767E19 /* Images.xcassets */; };
 		910DD9001AA8335600767E19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910DD8FE1AA8335600767E19 /* LaunchScreen.xib */; };
 		910DD90C1AA8335600767E19 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910DD90B1AA8335600767E19 /* QuizTests.m */; };
+		910DD9181AA8344800767E19 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910DD9161AA8344800767E19 /* BNRViewController.m */; };
+		910DD9191AA8344800767E19 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910DD9171AA8344800767E19 /* BNRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		910DD9051AA8335600767E19 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910DD90A1AA8335600767E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910DD90B1AA8335600767E19 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		910DD9151AA8344800767E19 /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		910DD9161AA8344800767E19 /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		910DD9171AA8344800767E19 /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				910DD8F31AA8335600767E19 /* AppDelegate.h */,
+				910DD9151AA8344800767E19 /* BNRViewController.h */,
+				910DD9161AA8344800767E19 /* BNRViewController.m */,
+				910DD9171AA8344800767E19 /* BNRViewController.xib */,
 				910DD8F41AA8335600767E19 /* AppDelegate.m */,
 				910DD8F61AA8335600767E19 /* ViewController.h */,
 				910DD8F71AA8335600767E19 /* ViewController.m */,
@@ -202,6 +210,7 @@
 				910DD8FB1AA8335600767E19 /* Main.storyboard in Resources */,
 				910DD9001AA8335600767E19 /* LaunchScreen.xib in Resources */,
 				910DD8FD1AA8335600767E19 /* Images.xcassets in Resources */,
+				910DD9191AA8344800767E19 /* BNRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				910DD8F81AA8335600767E19 /* ViewController.m in Sources */,
 				910DD8F51AA8335600767E19 /* AppDelegate.m in Sources */,
 				910DD8F21AA8335600767E19 /* main.m in Sources */,
+				910DD9181AA8344800767E19 /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
