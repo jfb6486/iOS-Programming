@@ -10,6 +10,12 @@
 
 @implementation BNRItem
 
+// Overrde deallocation
+- (void)dealloc
+{
+    NSLog(@"Destroyed %@", self);
+}
+
 - (NSString *)description
 {
     NSString *descriptionString =
