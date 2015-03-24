@@ -8,12 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BNRItem : NSObject {
-    NSString *_itemName;
-    NSString *_serialNumber;
-    int _valueInDollars;
-    NSDate *_dateCreated;
-}
+@interface BNRItem : NSObject
 
 + (instancetype)randomItem;
 
@@ -24,16 +19,13 @@
 
 - (instancetype) initWithItemName:(NSString *)name;
 
+// Changed multi-threading attribute to nonatomic from
+// the atomic default setting.
+@property (nonatomic, strong) BNRItem *containedItem;
+@property (nonatomic, weak) BNRItem *container;
 
-- (void)setItemName:(NSString *)str;
-- (NSString *)itemName;
-
-- (void)setSerialNumber:(NSString *)str;
-- (NSString *)serialNumber;
-
-- (void)setValueInDollars:(int)v;
-- (int)valueInDollars;
-
-- (NSDate *)dateCreated;
-
+@property (nonatomic, copy) NSString *itemName;
+@property (nonatomic, copy) NSString *serialNumber;
+@property (nonatomic) int valueInDollars;
+@property (nonatomic, readonly, strong) NSDate *dateCreated;
 @end
