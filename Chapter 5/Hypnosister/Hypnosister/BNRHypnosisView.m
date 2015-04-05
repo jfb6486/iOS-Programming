@@ -89,4 +89,11 @@
     self.circleColor = randomColor;
 }
 
+//  Accessor to send setNeedsDisplay to the view whenever property is changed
+- (void)setCircleColor:(UIColor *)circleColor
+{
+    _circleColor=circleColor;
+    [self setNeedsDisplay];
+}
+
 @end
