@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91DBBB1D1AD37915004D6326 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DBBB1C1AD37915004D6326 /* BNRHypnosisViewController.m */; };
+		91DBBB201AD37EAC004D6326 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DBBB1F1AD37EAC004D6326 /* BNRReminderViewController.m */; };
+		91DBBB221AD38138004D6326 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DBBB211AD38138004D6326 /* BNRReminderViewController.xib */; };
 		91F8A1811AD1D88900AD07AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8A1801AD1D88900AD07AA /* main.m */; };
 		91F8A1841AD1D88900AD07AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8A1831AD1D88900AD07AA /* AppDelegate.m */; };
 		91F8A1871AD1D88900AD07AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8A1861AD1D88900AD07AA /* ViewController.m */; };
@@ -14,6 +17,7 @@
 		91F8A18C1AD1D88900AD07AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F8A18B1AD1D88900AD07AA /* Images.xcassets */; };
 		91F8A18F1AD1D88900AD07AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F8A18D1AD1D88900AD07AA /* LaunchScreen.xib */; };
 		91F8A19B1AD1D88900AD07AA /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8A19A1AD1D88900AD07AA /* HypnoNerdTests.m */; };
+		91F8A1A61AD1D92B00AD07AA /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8A1A51AD1D92B00AD07AA /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91DBBB1B1AD37915004D6326 /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		91DBBB1C1AD37915004D6326 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		91DBBB1E1AD37EAC004D6326 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		91DBBB1F1AD37EAC004D6326 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		91DBBB211AD38138004D6326 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 		91F8A17B1AD1D88900AD07AA /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8A17F1AD1D88900AD07AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91F8A1801AD1D88900AD07AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,8 @@
 		91F8A1941AD1D88900AD07AA /* HypnoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8A1991AD1D88900AD07AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91F8A19A1AD1D88900AD07AA /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		91F8A1A41AD1D92B00AD07AA /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		91F8A1A51AD1D92B00AD07AA /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,13 @@
 			isa = PBXGroup;
 			children = (
 				91F8A1821AD1D88900AD07AA /* AppDelegate.h */,
+				91DBBB1B1AD37915004D6326 /* BNRHypnosisViewController.h */,
+				91DBBB1C1AD37915004D6326 /* BNRHypnosisViewController.m */,
+				91F8A1A41AD1D92B00AD07AA /* BNRHypnosisView.h */,
+				91F8A1A51AD1D92B00AD07AA /* BNRHypnosisView.m */,
+				91DBBB1E1AD37EAC004D6326 /* BNRReminderViewController.h */,
+				91DBBB211AD38138004D6326 /* BNRReminderViewController.xib */,
+				91DBBB1F1AD37EAC004D6326 /* BNRReminderViewController.m */,
 				91F8A1831AD1D88900AD07AA /* AppDelegate.m */,
 				91F8A1851AD1D88900AD07AA /* ViewController.h */,
 				91F8A1861AD1D88900AD07AA /* ViewController.m */,
@@ -200,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91F8A18A1AD1D88900AD07AA /* Main.storyboard in Resources */,
+				91DBBB221AD38138004D6326 /* BNRReminderViewController.xib in Resources */,
 				91F8A18F1AD1D88900AD07AA /* LaunchScreen.xib in Resources */,
 				91F8A18C1AD1D88900AD07AA /* Images.xcassets in Resources */,
 			);
@@ -220,8 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91F8A1871AD1D88900AD07AA /* ViewController.m in Sources */,
+				91DBBB201AD37EAC004D6326 /* BNRReminderViewController.m in Sources */,
 				91F8A1841AD1D88900AD07AA /* AppDelegate.m in Sources */,
+				91F8A1A61AD1D92B00AD07AA /* BNRHypnosisView.m in Sources */,
 				91F8A1811AD1D88900AD07AA /* main.m in Sources */,
+				91DBBB1D1AD37915004D6326 /* BNRHypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +434,7 @@
 				91F8A1A01AD1D88900AD07AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91F8A1A11AD1D88900AD07AA /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				91F8A1A31AD1D88900AD07AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
